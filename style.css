@@ -1,0 +1,82 @@
+
+:root{
+    --bs-brown:#c19b76;
+    --bs-serif:"Playfair Display", serif;
+}
+.bg-brown{
+    background: var(--bs-brown);
+}
+.text-brown{
+    color: #c19b76;
+}
+#over:hover{
+    background-color:red;
+}
+/* #i1{
+background-image: url(../images/bg_4.jpg);
+height: 500px;
+} */
+#bg{
+    background-image: url(../images/bg_4.jpg);
+}
+.s1:hover{
+    background-color: grey;
+}
+#discover{
+    /* background-image: url(../images/bg_4.jpg); */
+    background-color: black;
+}
+#card{
+    width: 370px;
+}
+#info{
+    background-color:#c19b76;
+}
+#pills-tab{
+    justify-content: center;
+}
+#om{
+    background-image: url(../images/bg_4.jpg);
+}
+/* #btn{
+    background-color: #c19b76;
+} */
+#numbers{
+    background-image: url(../images/menu-3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#imgfor img {
+    transition: transform .3s ease-out;
+}
+
+#imgfor:hover img {
+    transform: scale(1.2);
+}
+
+#pills-tab li{
+   
+    text-decoration: none;
+    padding: 30px;
+}
+
+#pills-tab li button{
+    
+    color: #c19b76;
+    background-color: black;
+    font-size: 30px;
+}
+#txt{
+    color: #c19b76;
+}
+.top{
+    padding-top: 400px;
+}
+#footer{
+    background-image: url(../images/online\ bg-4.jpg);
+    background-size: cover;
+    height: 800px;
+}
